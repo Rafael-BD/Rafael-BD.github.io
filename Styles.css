@@ -1,0 +1,90 @@
+body{
+    align-self: center;
+    background-color: #11171f;
+    border-style: solid;
+    border-color: #0d1117;
+    margin: 0px;
+    border-left-width: 200px;
+    border-right-width: 200px;
+    border-color: #0d1117;
+}
+a{
+    color: aqua;
+}
+
+@media only screen and (max-device-width: 700px) and (orientation:portrait){
+    body{
+        border-left-width: 30px;
+        border-right-width: 30px;}
+    #git{width: 45px;}
+    #in{width: 28px;}
+    #statics{margin-top: 100px;}
+    .title{font-size: 25px;}
+    .topnav a{padding: 7px 8px; font-size: 12px;}
+    #langs{height: 100px}
+}
+@media only screen and (min-device-width: 1000px){
+    body{ border-left-width: 200px; border-right-width: 200px;}
+    #git{ width: 80px;}
+    #in { width: 45px;}
+    #statics{margin-top: 150px;}
+    #langs{height: 150px}
+    .title{font-size: 50px;}
+    .topnav a{padding: 14px 16px; font-size: 17px;} 
+}
+#cabecario{
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+#redes{
+    margin-bottom: 0px;
+    margin-right: 5px;
+    text-align: right;
+}
+#git{
+    margin-left: 0px;
+}
+#in{
+    margin-right: 0px;
+}
+#statics{
+    text-align: center;
+}
+.title{
+    align-self: center;
+}
+
+.text{
+    color: rgb(114, 247, 214);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(15, 13, 20);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+
