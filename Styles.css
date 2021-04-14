@@ -113,6 +113,10 @@ a {
     text-align: center;
 }
 
+#projects{
+    margin-top: 100px;
+}
+
 .title {
     align-self: center;
 }
@@ -120,6 +124,7 @@ a {
 .text {
     color: rgb(114, 247, 214);
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 /* Add a black background color to the top navigation */
